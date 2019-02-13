@@ -1,5 +1,7 @@
 # Responsive Web Design Projects - Build a Survey Form
 
+This is the second project for the Responsive Web Design Certification from Free Code Camp
+
 ## Objective: Build a CodePen.io app that is functionally similar to this [CodePen](https://codepen.io/freeCodeCamp/full/VPaoNP)
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
