@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FCC Survey Form</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1 id="title">My Survey</h1>
-</body>
+    <h1 id="title">A Made Up Survey</h1>
+    <div class="form-wrapper">
+        <p id="description">
+            This is a really pointless survey
+        </p>
+        <form action="#" method="get" id="survey-form">
+            <!-- Name input -->
+            <div class="formTab">
+                <div class="labels">
+                    <label for="name" id="name-label">* Name</label>
+                </div>
+                <div class="inputs">
+                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name"
+                        required>
+                </div>
+            </div>
+            <!-- Email input -->
+            <div class="formTab">
+                <div class="labels">
+                    <label for="email" id="email-label">* Email</label>
+                </div>
+                <div class="inputs">
+                    <input autofocus type="email" name="email" id="email" class="input-field"
+                        placeholder="Enter your email address" required>
+                </div>
+            </div>
+            <!-- Age input -->
+            <div class="formTab">
+                <div class="labels">
+                    <label for="number" id="number">* Age</label>
+                </div>
+                <div class="inputs">
+                    <input autofocus type="number" name="number" id="number" min="1" max="125" class="input-field"
+                        placeholder="How old are you?" required>
+                </div>
+            </div>
+            <button id="submit" type="submit">Submit!</button>
+        </form>
+    </div>
+
 </html>
